@@ -13,12 +13,12 @@ Pod::Spec.new do |spec|
   spec.authors       = { "Sergej Jaskiewicz" => "jaskiewiczs@icloud.com" }
   spec.source        = { :git => "https://github.com/OpenCombine/OpenCombine.git", :tag => "#{spec.version}" }
 
-  spec.swift_version = "5.0"
+  spec.swift_version = "5.7"
 
-  spec.osx.deployment_target     = "10.10"
-  spec.ios.deployment_target     = "8.0"
+  spec.osx.deployment_target     = "10.13"
+  spec.ios.deployment_target     = "11.0"
   spec.watchos.deployment_target = "2.0"
-  spec.tvos.deployment_target    = "9.0"
+  spec.tvos.deployment_target    = "11.0"
 
   spec.source_files = "Sources/OpenCombineDispatch/**/*.swift"
   spec.dependency     "OpenCombine", '>= 0.12.0'
